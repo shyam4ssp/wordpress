@@ -1,0 +1,2 @@
+Read our documentation to know how to import the demo content
+http://docs.drfuri.com/unero/one-click-import-demo-content/

@@ -1,0 +1,67 @@
+<div id="load-more-product">
+    <a class="action primary" id="load-more-product-link">Load More</a>
+</div>
+<div id="load-more-loader"  style="display: none;">
+    <a class="action primary" id="load-more-product-link">Loading</a>
+</div>
+<script>
+(function( $ ){
+	alert('test');
+        // find url of next page
+       var url=$('a.next').attr('href');
+
+       // if there are no more products available then hide load more button 
+       if (typeof url === "undefined") {
+           $('#load-more-product').hide();
+        }
+        // if we have more products then get them
+        $('#load-more-product-link').on('click', function () {
+            //trigger body busy for magento2
+            //$('body').trigger('processStart');
+            // url to be loaded
+            var url = $('a.next').attr('href');
+            //hide load more button and show loading
+            $('#load-more-product').hide();
+            $('#load-more-loader').show();
+            $('#load-more-loader').addClass('loading');
+
+            //send a GET request to server
+            $.get(url, function(data, status) {
+                // after success hide loader and show load more
+                $('#load-more-product a').blur();
+                $('#load-more-loader').hide();
+                $('#load-more-loader').removeClass('loading');
+                $('#load-more-product').show();
+                //remove body busy for magento2
+                //$('body').trigger('processStop');
+                
+                var html = data;
+                console.log(html);
+                // get response is going to load a complete page
+                // So find our ptoduct list
+                //this is going to return an array
+                var products = $(html).find('ul.products li');
+
+                //get load more url in GET response
+                var nxtUrl =$(html).find('a.next').attr('href');
+
+                // loop out array of products and append them to our product
+                products.each(function(index, value) {
+                	//alert(value);
+                    // append the value in our current ol
+                    $('ul.products').append(value);
+                    //$( "form[data-role='tocart-form']" ).catalogAddToCart()
+                });
+
+                // if load more URL is not available then show a messege or hide "Load More button"
+                if (typeof nxtUrl === "undefined") {
+                       $('#load-more-product').html('<em>"Sorry, No More product in this Category."</em>');
+                }
+                //if we have load more URL then add it to current page next link
+                else{
+                    $('a.next').attr('href',nxtUrl);
+                }
+            });     
+        });
+})( jQuery );
+</script>

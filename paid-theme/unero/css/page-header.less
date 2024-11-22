@@ -1,0 +1,319 @@
+.page-header {
+	padding-top: 55px;
+	padding-bottom: 45px;
+	margin: 0;
+	border: none;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	background-color: @light;
+
+	h1 {
+		margin: 0;
+		font-size: 36px;
+		font-weight: 400;
+	}
+
+	.breadcrumbs {
+		padding-top: 20px;
+		a {
+			color: @dark;
+		}
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			li {
+				display: inline-block;
+				&:after {
+					content: "/";
+					display: inline-block;
+					padding: 0 5px;
+				}
+
+				&:last-child {
+					&:after {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+.page-header-layout-2 {
+	.page-header {
+		padding-top: 140px;
+		padding-bottom: 225px;
+		background-position: center center;
+
+		&.parallax {
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: block;
+			position: relative;
+			background-size: cover;
+
+		}
+
+		&.has-height {
+			padding-top: 0;
+			padding-bottom: 0;
+			display: flex;
+			align-items: center;
+		}
+
+		&.ph-portfolio-sliders {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+		&.ph-single-portfolio {
+			max-width: 1580px;
+			margin: 0 auto;
+			padding: 220px 30px;
+
+			.page-header-content {
+				display: inline-table;
+				background-color: #fff;
+				padding: 35px 50px 30px;
+			}
+
+			h1 {
+				font-size: 30px;
+				margin-bottom: 10px;
+			}
+
+			.entry-cats a {
+				color: #999;
+				padding: 0 8px;
+
+				&:hover {
+					color: @dark;
+				}
+			}
+		}
+
+	}
+
+	.page-header-portfolio {
+		background-color: @light;
+		position: relative;
+		z-index: 2;
+	}
+
+	.site-content {
+		padding-top: 100px;
+	}
+
+	&.header-transparent {
+		.page-header {
+			padding-top: 190px;
+		}
+	}
+
+}
+
+.page-header-layout-3 {
+	.site-content {
+		background-color: @light;
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.page-header-sliders {
+	padding: 0;
+	background-color: @light;
+
+	&.parallax-2 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		clip: rect(0, auto, auto, 0);
+		z-index: 1;
+
+		.page-header-inner {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 10;
+			height: 100%;
+		}
+
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+		height: 100%;
+
+		li {
+			height: 100%;
+			list-style: none;
+			margin-bottom: 0;
+			.featured-img {
+				position: relative;
+				height: 100%;
+				background-position: center center;
+				width: 100%;
+			}
+
+			.link {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				z-index: 10;
+			}
+
+			.unvideo-bg {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				video {
+					object-fit: cover;
+					width: 100%;
+					display: block;
+					height: 100%;
+				}
+			}
+		}
+	}
+
+	&.parallax {
+		ul li {
+
+			.featured-img {
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				display: block;
+				position: relative;
+			}
+
+		}
+	}
+
+	.slick-list,
+	.slick-track {
+		height: 100%;
+	}
+
+	.slick-active {
+		.page-header-content {
+			opacity: 1;
+		}
+	}
+
+	.page-header-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: @light;
+		padding: 35px 40px 25px;
+		text-align: center;
+		opacity: 0.5;
+
+		h3 {
+			margin: 0 0 7px;
+			line-height: 1;
+			font-size: 36px;
+			font-weight: 600;
+			letter-spacing: 50px;
+			text-transform: uppercase;
+			margin-right: -50px;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	.slick-arrow {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		font-size: 48px;
+		color: #999;
+		transition: 0.5s;
+		z-index: 10;
+		cursor: pointer;
+
+		&:hover {
+			color: @dark;
+		}
+	}
+
+	.slick-prev-arrow {
+		left: 100px;
+	}
+
+	.slick-next-arrow {
+		right: 100px;
+	}
+
+	&.ph-portfolio-sliders {
+
+		.page-header-inner {
+			max-width: 1580px;
+			padding: 0 30px;
+			margin: 0 auto;
+		}
+
+		&.parallax {
+			ul li {
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				display: block;
+				position: relative;
+			}
+		}
+
+		.page-header-content {
+			h3 {
+				margin: 0 0 7px;
+				line-height: 1;
+				font-size: 30px;
+				font-weight: 400;
+				letter-spacing: 0;
+				text-transform: none;
+			}
+
+		}
+	}
+}
+
+.header-no-transparent {
+	&.header-layout-1 {
+		.page-header-sliders.parallax-2 {
+			top: 120px;
+
+			.page-header-inner {
+				top: 120px;
+			}
+		}
+	}
+
+	&.header-layout-2 {
+		.page-header-sliders.parallax-2 {
+			top: 80px;
+
+			.page-header-inner {
+				top: 80px;
+			}
+		}
+	}
+
+}

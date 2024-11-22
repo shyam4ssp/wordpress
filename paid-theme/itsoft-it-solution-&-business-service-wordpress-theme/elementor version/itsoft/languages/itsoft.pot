@@ -1,0 +1,1140 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: itsoft\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-04 13:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.3"
+
+#: includes/itsoft-option-framework.php:1465
+msgid " Footer Social Section"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:526
+msgid " Header Social Icon"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:411
+msgid " Left Opening Middle Icon Right Login"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:643
+msgid "\"itsoft\""
+msgstr ""
+
+#: template-parts/content-list.php:29 template-parts/content-search.php:31
+#: template-parts/content-single.php:25
+msgid "% Comments"
+msgstr ""
+
+#: includes/itsoft-global-function.php:283
+msgid "(Edit)"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:435
+msgid "+880 320 432 242"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: includes/template-tags.php:50 includes/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: template-parts/content-list.php:29 template-parts/content-search.php:31
+#: template-parts/content-single.php:25
+msgid "0 Comments"
+msgstr ""
+
+#: template-parts/content-list.php:29 template-parts/content-search.php:31
+#: template-parts/content-single.php:25
+msgid "1 Comments"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:684
+msgid "1 Header Menu With Stiky"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:421
+msgid "1st Floor New World."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:685
+msgid "2 Header Transparent Without Top Menu "
+msgstr ""
+
+#: includes/itsoft-option-framework.php:686
+msgid "3 Header Transparent With Top Menu"
+msgstr ""
+
+#: 404.php:32 includes/itsoft-breadcrumb.php:124
+msgid "404"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1347
+msgid "404 Area"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1357
+msgid "404 background with image, color."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1392
+msgid "404 Information"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1394
+msgid "404 Oops! The page you are Looking for does not exist. "
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1356
+msgid "404 Page Background Color"
+msgstr ""
+
+#: functions.php:266 functions.php:275
+msgid "Add widgets here."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:471
+msgid "Address Icon Hover Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:358
+msgid "All Header Hide"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:356
+msgid "All Menu OFF/ON section"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:996
+msgid "Allow your users to choose the spacing or margin they want."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:901
+#: includes/itsoft-option-framework.php:1404
+msgid "Allow your users to choose the spacing or padding they want."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:510
+#: includes/itsoft-option-framework.php:1593
+#: includes/itsoft-option-framework.php:1701
+#: includes/itsoft-option-framework.php:1785
+msgid "Allow your users to choose the spacing padding they want."
+msgstr ""
+
+#: includes/itsoft-breadcrumb.php:94 includes/itsoft-breadcrumb.php:99
+#: includes/itsoft-breadcrumb.php:104
+msgid "Archive for"
+msgstr ""
+
+#: includes/itsoft-breadcrumb.php:109
+msgid "Author"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1039
+msgid "BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1140
+#: includes/itsoft-option-framework.php:1241
+msgid "BG color"
+msgstr ""
+
+#. Name of the template
+msgid "Blog"
+msgstr ""
+
+#. Name of the template
+msgid "Blog 2column"
+msgstr ""
+
+#: includes/itsoft-breadcrumb.php:114
+msgid "Blog Archives"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1131
+msgid "Blog Area"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1205
+msgid "Blog btn Border Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1227
+msgid "Blog Btn Hover BG & Border Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1216
+msgid "Blog btn Hover Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1194
+msgid "Blog btn Text Color"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Grid"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1139
+msgid "Blog Item BG Color"
+msgstr ""
+
+#. Name of the template
+msgid "Blog List"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1172
+msgid "Blog Post Meta Icon Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1182
+msgid "Blog Post Meta Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1240
+msgid "Blog Sidebar BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1334
+msgid "Blog Social share Show/Hide"
+msgstr ""
+
+#: includes/itsoft-breadcrumb.php:11
+msgid "Blog Standerd"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1149
+msgid "Blog Title Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1161
+msgid "Blog Title Hover Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:374
+#: includes/itsoft-option-framework.php:385
+#: includes/itsoft-option-framework.php:1455
+msgid "Box Layout"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:924
+msgid "Breadcrumb Area"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:937
+msgid "Breadcrumb Background"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:938
+msgid "Breadcrumb background with image, color."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:982
+msgid "Breadcrumb Current Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:946
+msgid "Breadcrumb Title Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:693
+msgid "Button Text"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:700
+msgid "Button URL"
+msgstr ""
+
+#: includes/itsoft-breadcrumb.php:47
+msgid "Case Study Details"
+msgstr ""
+
+#: includes/itsoft-tgm-activation.php:27
+msgid "Cmb2"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1619
+msgid "Column 1"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1620
+msgid "Column 2"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1621
+msgid "Column 3"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1622
+msgid "Column 4"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1623
+msgid "Column 6"
+msgstr ""
+
+#: includes/itsoft-global-function.php:237
+msgid "Comment"
+msgstr ""
+
+#: comments.php:29 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:43
+#, php-format
+msgctxt "comments title"
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Author of the theme
+msgid "Consultant"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1079
+msgid "Contact Button BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1088
+msgid "Contact Button Hover BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1098
+msgid "Contact Button Hover Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1070
+msgid "Contact Button Text Color"
+msgstr ""
+
+#: includes/itsoft-tgm-activation.php:22
+msgid "Contact form 7"
+msgstr ""
+
+#: footer.php:289
+msgid "Copyright &copy; itsoft 2019 all right reserved."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1740
+msgid "Copyright &copy; itsoft all rights reserved."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1738
+msgid "Copyright information"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1768
+msgid "Copyright Section BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1439
+msgid "Copyright Section Show/Hide"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1725
+msgid "Copyright Style Layout"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1730
+msgid "Copyright Text and Left Menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1729
+msgid "Copyright Text and Right Menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1731
+msgid "Copyright Text and Social Icon"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1750
+msgid "Copyright Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1759
+msgid "Copyright Text Hover Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1728
+msgid "Copyright Text Style"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:632
+msgid "Create logo spacing massing"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1427
+msgid "Customize Your Footer"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1803
+msgid "Customizer Only"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1810
+msgid "Customizer Only Option"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1018
+msgid "Default Color"
+msgstr ""
+
+#. Name of the template
+msgid "Default itsoft Template"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:578
+msgid "Default Logo"
+msgstr ""
+
+#. %s: Name of current post
+#: includes/template-tags.php:72
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1107
+msgid "EM Video Widget Ovelrlay Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:535
+msgid "Enter social links"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:428
+msgid "example@example.com"
+msgstr ""
+
+#. If there are characters in your language that are not
+#. supported by Roboto, translate this to 'off'. Do not translate
+#. into your own language.
+#: functions.php:132
+msgctxt "Fira Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:288
+msgid "Footer "
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1425
+msgid "Footer Area"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1716
+msgid "Footer Copyright Info"
+msgstr ""
+
+#: functions.php:47
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1608
+msgid "Footer Widget Section"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:375
+#: includes/itsoft-option-framework.php:386
+#: includes/itsoft-option-framework.php:1456
+msgid "Full Layout"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:156
+msgid "General"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:695
+msgid "Get A Quote"
+msgstr ""
+
+#: 404.php:36
+msgid "Go Home"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:348
+msgid "Header area"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:569
+#: includes/itsoft-option-framework.php:571
+msgid "Header Logo"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:670
+msgid "Header Menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:350
+msgid "Header options"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:365
+msgid "Header Top"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:457
+msgid "Header Top Address Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:448
+msgid "Header Top Icon Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:493
+msgid "Header Top Section BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:397
+msgid "Header Top Style "
+msgstr ""
+
+#: includes/itsoft-breadcrumb.php:66
+msgid "Home"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1049
+msgid "Hover BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1059
+msgid "Hover Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1393
+#: includes/itsoft-option-framework.php:1739
+msgid "HTML tags allowed: a, br, em, strong"
+msgstr ""
+
+#. URI of the theme
+msgid "http://webitkurigram.com/wp/itsoft/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.templatemonster.com/vendors/consultant/"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:363
+msgid ""
+"If you ON this section. It will show header top section all your single page."
+" But If you want to only show header top in home and others page, Please "
+"goes to your page, there you can see header top OFF/ON section. Please set It"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:420
+msgid "insert address ex:- house, road-4."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:419
+msgid "Insert Company Location"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:426
+msgid "Insert Email Address"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:427
+msgid "Insert email address"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:399
+msgid "Insert header top info"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:433
+msgid "Insert Phone Number"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:434
+msgid "Insert phone number"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:534
+msgid "Insert Social Icons"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:442
+#: includes/itsoft-option-framework.php:694
+msgid "Insert text"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:642
+msgid "Insert text ex: - \"itsoft\", Must be use \"\" for logo text "
+msgstr ""
+
+#: includes/itsoft-option-framework.php:701
+msgid "Insert url ex: - http://webitkurigram.com/"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1718
+msgid "Insert your copyright style"
+msgstr ""
+
+#: includes/itsoft-tgm-activation.php:52
+msgid "Instagram feed"
+msgstr ""
+
+#. Name of the theme
+#: includes/itsoft-option-framework.php:1486
+msgid "itsoft"
+msgstr ""
+
+#. Description of the theme
+msgid "itsoft - Immigration Visa Consulting WP Theme"
+msgstr ""
+
+#: includes/itsoft-tgm-activation.php:14
+msgid "itsoft helper Plugin"
+msgstr ""
+
+#: includes/itsoft-tgm-activation.php:42
+msgid "kingcomposer"
+msgstr ""
+
+#. %s: post title
+#: includes/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: includes/itsoft-global-function.php:243
+msgid "Leave Comment"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:409
+msgid "Left Address Right Icon"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:412
+msgid "Left Address Right Icon & Search"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:410
+msgid "Left Icon Right Address"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:618
+msgid "Logo Height"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:641
+msgid "Logo Text"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:625
+msgid "Logo Width"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1501
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur ahkl adipisicing elit, sed do "
+"eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim "
+"veniam, quis nostrud"
+msgstr ""
+
+#: includes/itsoft-tgm-activation.php:32
+msgid "Mailchimp for WP"
+msgstr ""
+
+#: header.php:52 header.php:108 header.php:122 header.php:167 header.php:238
+#: header.php:286 header.php:342
+msgid "mailto:"
+msgstr ""
+
+#: functions.php:44
+msgid "Main Menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:786
+msgid "Main Menu Hover Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:743
+msgid "Main Menu Section BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:796
+msgid "Main Menu Sticky BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:831
+msgid "Main Menu Sticky Current Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:715
+msgid "Menu Button & Search BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:706
+msgid "Menu Button & Search Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:734
+msgid "Menu Hover Button BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:725
+msgid "Menu Hover Button Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:610
+msgid "Mobile Logo"
+msgstr ""
+
+#: functions.php:46
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:648
+msgid "Mobile Menu BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:657
+msgid "Mobile Menu Icon Color"
+msgstr ""
+
+#: comments.php:33 comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: search.php:30
+msgid "Nothing Found"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:931
+msgid ""
+"Notice:- If you want to more breadrucmb control. Please see every page "
+"bottom area. We Added More Field Here"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1025
+msgid ""
+"Notice:- we set our all color in our adns, But only carousel Arrow, contact "
+"button and scroll button color will be change by below option"
+msgstr ""
+
+#: comments.php:32 comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: includes/itsoft-tgm-activation.php:47
+msgid "One Click Demo Import"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:586
+msgid "One Page Menu Logo"
+msgstr ""
+
+#: functions.php:45
+msgid "OnePage Menu"
+msgstr ""
+
+#: 404.php:33
+msgid "Oops! The page you are looking for does not exist."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:443
+msgid "Open hours: 9.00-24.00 Mon-Sat"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:483
+msgid "Opening BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:441
+msgid "Opening Hour Text"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1816
+msgid "Opt 1"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1817
+msgid "Opt 2"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1818
+msgid "Opt 3"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:509
+#: includes/itsoft-option-framework.php:995
+#: includes/itsoft-option-framework.php:1592
+#: includes/itsoft-option-framework.php:1700
+#: includes/itsoft-option-framework.php:1784
+msgid "Padding Option"
+msgstr ""
+
+#: functions.php:273
+msgid "Page"
+msgstr ""
+
+#. Name of the template
+msgid "Page Left Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: template-parts/content-page.php:41 template-parts/content-single.php:43
+msgid "Pages:"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1324
+msgid "Pagination Hover Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1313
+msgid "Pagination Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:678
+msgid ""
+"Please set a menu for your all single page. But, For your home and others "
+"main page menu, Please goes to your page, there you can see header menu "
+"section. Please set a  menu style there"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1487
+msgid ""
+"Please set this way for different color. ex-  T<span>H</span>E<span>M</span>"
+"E<span>X</span>P"
+msgstr ""
+
+#: includes/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: includes/itsoft-global-function.php:240
+msgid "Post Comment"
+msgstr ""
+
+#: includes/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: includes/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: includes/itsoft-tgm-activation.php:37
+msgid "Redux-framework"
+msgstr ""
+
+#: includes/itsoft-global-function.php:275
+msgid "Reply"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:602
+msgid "Retina Logo"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1383
+msgid "Return Link Color"
+msgstr ""
+
+#: functions.php:133
+msgctxt "Rubik font: on or off"
+msgid "on"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search Here"
+msgstr ""
+
+#: includes/itsoft-breadcrumb.php:119
+msgid "Search Results"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:900
+#: includes/itsoft-option-framework.php:1403
+msgid "Section Padding Option"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:683
+msgid "Select Default Menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:680
+msgid "Select Default Menu For All Single Page"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1452
+msgid "Select Footer layout"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:382
+msgid "Select Header layout"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:371
+msgid "Select Header Top layout"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1473
+msgid "Select Logo Style"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:406
+msgid "Select Your Top Header Style"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:620
+msgid "Set height ex-100px"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:634
+msgid "Set number default-15px"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:627
+msgid "Set Width ex-100px"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1477
+msgid "Show Image Logo"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1476
+msgid "Show Text Logo"
+msgstr ""
+
+#: functions.php:264
+msgid "Sidebar"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1258
+msgid "Sidebar Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1280
+msgid "Sidebar Text Hover Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1249
+msgid "Sidebar Title Text Color"
+msgstr ""
+
+#: includes/itsoft-breadcrumb.php:29
+msgid "Single Blog"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1291
+msgid "Single Blog Social Icon & Title bar Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1302
+msgid "Single Blog Social Icon Hover Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1547
+msgid "Social Icon BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1538
+msgid "Social Icon Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1566
+msgid "Social Icon hover BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1557
+msgid "Social Icon hover Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1492
+msgid "Social Image Logo"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1500
+msgid "Social information"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1576
+msgid "Social Section BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1445
+msgid "Social Section Show/Hide"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1529
+msgid "Social section Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1511
+msgid "Social Title Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1520
+msgid "Social Title Text Color 2"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1485
+msgid "Social Title Text Logo"
+msgstr ""
+
+#: search.php:31
+msgid ""
+"Sorry, but nothing matched your search terms, please try a different search "
+"term."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:847
+msgid "Sub Menu BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:883
+msgid "Sub Menu Hover Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1374
+msgid "Sub Title Color"
+msgstr ""
+
+#: includes/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: header.php:58 header.php:105 header.php:128 header.php:164 header.php:235
+#: header.php:283 header.php:339
+msgid "tel:"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1030
+msgid "Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1812
+msgid "The field desc is NOT visible in customizer."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1811
+msgid "The subtitle is NOT visible in customizer"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:35
+#: includes/itsoft-option-framework.php:36
+msgid "Theme Options"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1804
+msgid "This Section should be visible only in Customizer"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1365
+msgid "Title Color"
+msgstr ""
+
+#: functions.php:43
+msgid "Top Menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:594
+msgid "Transparent Menu Logo"
+msgstr ""
+
+#: header.php:198 header.php:373
+msgid "Type Your Keyword"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:168
+msgid "Typography Area"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:605
+msgid "Upload logo here. ex: - it is work in Retina Logo"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:597
+msgid "Upload logo here. ex: - it is work in transparent menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:589
+msgid "Upload logo here. ex:- it is work in one page menu"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:613
+msgid "Upload logo here. recommend size:- 1801x48px."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1495
+msgid ""
+"Upload logo here. recommend size:- 220x50px. Notice:- If you upload this "
+"logo, Title text logo will be hide "
+msgstr ""
+
+#: includes/itsoft-option-framework.php:581
+msgid "Upload logo here.ex: - it is work in default menu."
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1349
+msgid "Use this section to upload background images, select background color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:158
+msgid "Wellcome Our Theme Option"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1616
+msgid "Widget Column Count"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1684
+msgid "Widget Section BG Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1433
+msgid "Widget Section Hide/show"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1639
+msgid "Widget Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1668
+msgid "Widget Text Hover Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:1630
+msgid "Widget Title Text Color"
+msgstr ""
+
+#: includes/itsoft-option-framework.php:511
+#: includes/itsoft-option-framework.php:902
+#: includes/itsoft-option-framework.php:997
+#: includes/itsoft-option-framework.php:1405
+#: includes/itsoft-option-framework.php:1594
+#: includes/itsoft-option-framework.php:1702
+#: includes/itsoft-option-framework.php:1786
+msgid ""
+"You can enable or disable any piece of this field. Top, Right, Bottom, Left, "
+"or Units."
+msgstr ""

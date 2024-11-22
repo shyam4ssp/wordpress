@@ -1,0 +1,325 @@
+.portfolio-layout-masonry {
+
+	.unero-post-list {
+		&:after {
+			clear: both;
+			display: block;
+			content: "";
+		}
+	}
+
+	.portfolio-cols-2 {
+		.unero-post-list {
+			margin: 0 -50px;
+		}
+
+		.portfolio-wapper {
+			padding: 0 50px;
+			margin-bottom: 130px;
+		}
+	}
+
+	.portfolio-wapper {
+		width: 50%;
+		float: left;
+		margin-bottom: 30px;
+
+		.entry-title {
+			font-size: 24px;
+			font-weight: 400;
+			margin: 10px 0 0;
+		}
+
+		.entry-meta {
+			margin-top: 25px;
+			text-align: center;
+		}
+
+		.entry-cats a {
+			color: #999;
+			padding: 0 8px;
+
+			&:hover {
+				color: @dark;
+			}
+		}
+
+		.entry-format {
+
+			img {
+				opacity: 1;
+				transition: 0.5s;
+			}
+
+			&:hover {
+				img {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+
+	.portfolio-cols-3 {
+		.portfolio-wapper {
+			width: 33.33%;
+			padding: 0 15px;
+
+			.entry-title {
+				font-size: 18px;
+				margin-top: 5px;
+
+				a {
+					color: @light;
+				}
+			}
+		}
+
+		.entry-header {
+			position: relative;
+			&:before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: rgba(0, 0, 0, 0.5);
+				content: "";
+				opacity: 0;
+				transition: 0.35s;
+				z-index: 2;
+			}
+
+			&:hover {
+				&:before {
+					opacity: 1;
+				}
+				.entry-meta {
+					bottom: 25px;
+					opacity: 1;
+				}
+
+			}
+		}
+
+		.entry-format {
+			overflow: hidden;
+			img {
+				transition: transform 0.5s;
+			}
+		}
+
+		.entry-link {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			top: 0;
+			z-index: 10;
+		}
+
+		.entry-meta {
+			margin-top: 0;
+			position: absolute;
+			bottom: 0;
+			left: 30px;
+			right: 30px;
+			text-align: left;
+			opacity: 0;
+			transition: 0.35s;
+			z-index: 10;
+		}
+
+		.entry-cats a {
+			color: #ccc;
+
+			&:hover {
+				color: @light;
+			}
+			&:first-child {
+				padding-left: 0;
+			}
+		}
+	}
+
+	.paging-navigation {
+		margin-top: 0;
+	}
+
+	.scrollbar {
+		display: none;
+	}
+}
+
+.portfolio-layout-carousel {
+	.portfolio-wapper {
+		float: left;
+		margin-left: 50px;
+		margin-right: 50px;
+		position: relative;
+		overflow: hidden;
+		width: 1170px;
+
+		.entry-meta {
+			position: absolute;
+			bottom: 45px;
+			left: 50px;
+			right: 50px;
+			z-index: 2;
+		}
+
+		.entry-title {
+			font-size: 24px;
+			font-weight: 400;
+			margin: 5px 0 0;
+		}
+
+		.entry-format {
+
+			img {
+				opacity: 1;
+				transition: 0.5s;
+			}
+
+			&:hover {
+				img {
+					opacity: 0.5;
+				}
+			}
+		}
+
+		.entry-cats a {
+			color: #999;
+			padding: 0 8px;
+
+			&:first-child {
+				padding-left: 0;
+			}
+
+			&:hover {
+				color: @dark;
+			}
+		}
+	}
+
+	.blog-layout-carousel {
+		opacity: 0;
+		transition: 0.5s;
+
+		&.loaded {
+			opacity: 1;
+		}
+		.scrollbar {
+			margin: 120px 0 0 0;
+			height: 1px;
+			background: #e1e1e1;
+			line-height: 0;
+			position: relative;
+
+			.handle {
+				width: 200px;
+				height: 3px;
+				background-color: #999999;
+				cursor: pointer;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+
+				.mousearea {
+					position: absolute;
+					top: -9px;
+					left: 0;
+					width: 100%;
+					height: 20px;
+				}
+			}
+		}
+
+	}
+
+	.content-area {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.paging-navigation {
+		display: none;
+	}
+}
+
+.single-portfolio_project {
+	.entry-header {
+		padding-bottom: 30px;
+		border-bottom: 1px solid #e1e1e1;
+		.portfolio-socials {
+			text-align: right;
+			& > span,
+			.social-links {
+				display: inline-block;
+				color: @dark;
+			}
+
+			.social-links a {
+				padding: 0 10px;
+				color: #ccc;
+
+				&:hover {
+					color: @primary-color;
+				}
+
+				&:last-child {
+					padding-right: 0;
+				}
+
+				&:first-child {
+					padding-left: 20px;
+				}
+			}
+		}
+	}
+
+	.entry-content {
+		margin-top: 100px;
+
+	}
+
+	.navigation-portfolio {
+		font-size: 20px;
+		margin-top: 90px;
+		clear: both;
+
+		.port-archive {
+			font-size: 26px;
+		}
+
+		.port-prev,
+		.port-next {
+			a {
+				color: #999;
+
+				&:hover {
+					color: @dark;
+				}
+			}
+		}
+
+		.port-prev {
+			a {
+				&:before {
+					.icon('\e943');
+					font-size: 18px;
+					padding-right: 10px;
+				}
+			}
+		}
+
+		.port-next {
+			a {
+				&:after {
+					.icon('\e944');
+					font-size: 18px;
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+}

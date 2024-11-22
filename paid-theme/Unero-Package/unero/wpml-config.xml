@@ -1,0 +1,31 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="copy">video</custom-field>
+		<custom-field action="copy">audio</custom-field>
+		<custom-field action="copy">hide_page_header</custom-field>
+		<custom-field action="copy">hide_breadcrumb</custom-field>
+		<custom-field action="copy">hide_page_title</custom-field>
+		<custom-field action="copy">custom_sidebar</custom-field>
+		<custom-field action="copy">layout</custom-field>
+	</custom-fields>
+
+	<admin-texts>
+		<key name="theme_mods_unero">
+			<key name="logo"/>
+			<key name="page_header_slider_shop"/>
+			<key name="shop_product_cats_box"/>
+			<key name="shop_description"/>
+			<key name="footer_socials_label"/>
+			<key name="footer_socials"/>
+			<key name="coming_soon_socials"/>
+			<key name="hot_text"/>
+			<key name="outofstock_text"/>
+			<key name="new_text"/>
+			<key name="header_top_desc"/>
+			<key name="footer_copyright"/>
+			<key name="footer_news_letter"/>
+			<key name="custom_product_tab_1"/>
+			<key name="custom_product_tab_2"/>
+		</key>
+	</admin-texts>
+</wpml-config>

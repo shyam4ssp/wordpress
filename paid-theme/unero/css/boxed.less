@@ -1,0 +1,149 @@
+body {
+	&.boxed-layout-1 {
+		.site {
+			max-width: 1310px;
+			margin: 0 auto;
+			background-color: @light;
+		}
+
+		.site-header,
+		.site-footer,
+		.page-header-sliders,
+		.page-header-sliders .page-header-inner{
+			width: 1310px;
+			margin: 0 auto;
+		}
+
+		.site-header {
+			right: auto;
+			width: 100%;
+			max-width: 1310px;
+		}
+
+		&.sticky-header,
+		&.header-transparent {
+			.site-header {
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+
+		.unero-container {
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+
+		.un-row-full-width {
+			.unero-sliders {
+				.container {
+					max-width: 800px;
+				}
+			}
+		}
+
+		.site-content {
+			background-color: @light;
+		}
+
+		.footer-layout-4 {
+			.footer-logo {
+				left: 50px;
+			}
+			.footer-socials {
+				right: 50px;
+			}
+
+			.footer-content > .container {
+				max-width: 850px;
+			}
+		}
+
+		.footer-layout-2 {
+			padding-left: 50px;
+			padding-right: 50px;
+
+			.footer-copyright > .container {
+				max-width: 850px;
+			}
+		}
+
+
+		&.boxed-footer-transparent {
+			.site-footer .footer-layout {
+				background-color: transparent;
+			}
+
+			.footer-layout-1 .footer-copyright .text-copyright:after
+			.footer-layout-1 .footer-copyright .menu:after {
+				border-color: rgba(255, 255, 255, 0.2);
+			}
+		}
+
+		&.boxed-header-transparent:not(.header-transparent) {
+			.site,
+			.site-header {
+				background-color: transparent;
+			}
+
+			.site-header.minimized {
+				background-color: @light;
+			}
+		}
+
+		.unero-carousel-slider {
+			margin-bottom: 50px;
+		}
+	}
+
+	&.boxed-layout-2 {
+		.site {
+			max-width: 100%;
+			margin: 30px 30px 0;
+			background-color: @light;
+		}
+
+		.site-footer .footer-layout {
+			margin: 0 30px 30px;
+		}
+
+		.page-header-sliders.parallax-2 {
+			left: 30px;
+			right: 30px;
+			top: 30px;
+			.page-header-inner {
+				left: 30px;
+				right: 30px;
+			}
+		}
+
+		&.admin-bar {
+			.page-header-sliders.parallax-2 {
+				top: 62px;
+			}
+		}
+
+		&.sticky-header,
+		&.header-transparent {
+			.site-header {
+				top: 30px;
+				left: 30px;
+				right: 30px;
+				width: inherit;
+
+				&.minimized{
+					top: 0;
+				}
+			}
+
+			&.admin-bar {
+				.site-header {
+					top: 62px;
+
+					&.minimized {
+						top: 32px;
+					}
+				}
+			}
+		}
+	}
+}
